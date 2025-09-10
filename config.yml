@@ -14,8 +14,7 @@ buildExpired: false
 
 publishDir: "public"
 
-# اگر میخوای GA4 استفاده کنی، این رو تغییر بده
-googleAnalytics: UA-123-45
+googleAnalytics: "" # GA4 ID اگر داری اینجا بذار، نه UA
 
 minify:
   disableXML: true
