@@ -14,7 +14,7 @@ buildExpired: false
 
 publishDir: "public"
 
-# اگر بعدا میخوای GA4 استفاده کنی، این رو تغییر بده
+# اگر میخوای GA4 استفاده کنی، این رو تغییر بده
 googleAnalytics: UA-123-45
 
 minify:
@@ -79,7 +79,7 @@ params:
     Content: >
         سلام اینجا قدری درباره همه چیز می‌نویسم
 
-  socialIcons:
+  social:
     - name: twitter
       url: "https://twitter.com/pourmand_amir"
     - name: stackoverflow
