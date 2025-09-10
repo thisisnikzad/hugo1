@@ -14,8 +14,6 @@ buildExpired: false
 
 publishDir: "public"
 
-googleAnalytics: "" # GA4 ID اگر داری اینجا بذار، نه UA
-
 minify:
   disableXML: true
   minifyOutput: true
@@ -61,24 +59,13 @@ params:
 
   profileMode:
     enabled: false
-    title: ExampleSite
-    subtitle: "This is subtitle"
-    imageUrl: "<img location>"
-    imageWidth: 120
-    imageHeight: 120
-    imageTitle: my image
-    buttons:
-      - name: Posts
-        url: posts
-      - name: Tags
-        url: tags
 
   homeInfoParams:
-    Title: سلام امیر پورمند هستم
+    Title: سلام
     Content: >
-        سلام اینجا قدری درباره همه چیز می‌نویسم
+      سلام اینجا قدری درباره همه چیز می‌نویسم
 
-  social:
+  socialIcons:
     - name: twitter
       url: "https://twitter.com/pourmand_amir"
     - name: stackoverflow
@@ -86,23 +73,15 @@ params:
     - name: github
       url: "https://github.com/pourmand1376"
 
-  analytics:
-    google:
-      SiteVerificationTag: "XYZabc"
-    bing:
-      SiteVerificationTag: "XYZabc"
-    yandex:
-      SiteVerificationTag: "XYZabc"
-
   cover:
     hidden: true
     hiddenInList: true
     hiddenInSingle: true
 
   editPost:
-    URL: "https://github.com/<path_to_repo>/content"
-    Text: "Suggest Changes"
-    appendFilePath: true
+    URL: ""
+    Text: ""
+    appendFilePath: false
 
   fuseOpts:
     isCaseSensitive: false
